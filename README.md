@@ -510,9 +510,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For questions or collaboration opportunities, reach out at:
-- GitHub: [@yourusername](https://github.com/shima-maleki)
+- GitHub: [Github](https://github.com/shima-maleki)
 - Email: shimamaleki95@yahoo.com
-- LinkedIn: [Your Name](https://www.linkedin.com/in/malekishima/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/malekishima/)
 
 ---
 
