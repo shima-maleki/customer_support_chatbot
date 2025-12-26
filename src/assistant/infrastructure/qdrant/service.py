@@ -6,21 +6,12 @@ from pydantic import BaseModel
 from uuid import uuid4
 
 from langchain_qdrant import QdrantVectorStore, RetrievalMode
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
-from langchain.schema import Document
-from assistant.application.rag.embeddings import get_openai_embedding_model
-
-from assistant.config import settings
-
-# qdrant_manager.py
-from typing import List, Optional, Dict, Any
-from uuid import uuid4
-
-from langchain_qdrant import QdrantVectorStore, RetrievalMode
 from langchain_core.documents import Document
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import Distance, VectorParams, SparseVectorParams, SparseIndexParams
+from assistant.application.rag.embeddings import get_openai_embedding_model
+
+from assistant.config import settings
 
 
 class QdrantManager:
@@ -67,7 +58,7 @@ class QdrantManager:
         if path:
             return QdrantClient(path=path)
         else:
-            return QdrantClient(url=settings.QDRANT_URI, api_key=settings.QDRANT_API_KEY)
+            return QdrantClient(url=settings.QDRANT_URL, api_key=settings.QDRANT_API_KEY)
 
     def _create_collection(self, distance_metric: Distance, vector_size: int):
         vectors_config = None

@@ -11,7 +11,10 @@ class Settings(BaseSettings):
     """
     # --- Pydantic Settings ---
     model_config: SettingsConfigDict = SettingsConfigDict(
-        env_file=".env", env_file_encoding="utf-8"
+        env_file=".env",
+        env_file_encoding="utf-8",
+        extra="allow",
+        case_sensitive=False,
     )
 
     # --- Comet ML & Opik Configuration ---
@@ -22,13 +25,18 @@ class Settings(BaseSettings):
         default="customer_support_agent",
         description="Project name for Comet ML and Opik tracking.",
     )
+    COMET_WORKSPACE: str | None = Field(
+        default=None, description="Optional Comet workspace name."
+    )
 
     # --- MongoDB Configuration ---
     MONGO_URI: str = Field(
-        default="mongodb+srv://saurabhbhardwaj:saurabh27@saurabh-cluster.cuixean.mongodb.net/",
-        description="Connection URI for the local MongoDB Atlas instance.",
+        description="Connection URI for the MongoDB Atlas instance.",
     )
-    MONGO_DB_NAME: str = "saurabh-cluster"
+    MONGO_DB_NAME: str = Field(
+        default="chatbot",
+        description="Name of the MongoDB database.",
+    )
     MONGO_STATE_CHECKPOINT_COLLECTION: str = "assistant_state_checkpoints"
     MONGO_STATE_WRITES_COLLECTION: str = "assistant_state_writes"
     MONGO_LONG_TERM_MEMORY_COLLECTION: str = "assistant_long_term_memory"
@@ -46,12 +54,21 @@ class Settings(BaseSettings):
         default="customer_support_klnowledge_base",
         description="Name of the QdrantDB database.",
     )
-    QDRANT_URI: str = Field(
+    QDRANT_URI: str | None = Field(
+        default=None,
         description="Connection URI for the local MongoDB Atlas instance.",
     )
-    
-    QDRANT_API_KEY: str = Field(
+    QDRANT_URL: str | None = Field(
+        default=None,
+        description="Connection URL for hosted Qdrant.",
+    )
+    QDRANT_API_KEY: str | None = Field(
+        default=None,
         description="API key for QdrantDB service authentication.",
+    )
+    COLLECTION_NAME: str = Field(
+        default="customer_support_klnowledge_base",
+        description="Name of the Qdrant collection for embeddings.",
     )
 
     # --- OpenAI API Configuration ---
@@ -62,7 +79,19 @@ class Settings(BaseSettings):
     EVALUATION_LLM: str = "gpt-4.1-mini"
 
     KNOWLEDGE_DATASET_PATH: Path = Path("knowledge_base")
-    EVALUATION_DATASET_FILE_PATH: Path =Path("evaluation_data/evaluation_data.json")
+    EVALUATION_DATASET_FILE_PATH: Path = Path("evaluation_data/evaluation_data.json")
+
+    # --- OpenAI Embeddings ---
+    EMBEDDINGS_MODEL_ID: str = Field(
+        default="text-embedding-3-small",
+        description="Embedding model identifier for OpenAI embeddings.",
+    )
+
+    # --- Opik / Observability ---
+    OPIK_API_KEY: str | None = Field(default=None, description="API key for Opik.")
+    OPIK_PROJECT_NAME: str | None = Field(default=None, description="Project name for Opik.")
+    OPIK_URL: str | None = Field(default=None, description="Base URL for Opik.")
+    OPIK_ENABLED: bool = Field(default=False, description="Enable Opik instrumentation.")
 
     @field_validator("OPENAI_API_KEY")
     @classmethod
