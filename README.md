@@ -8,6 +8,14 @@
 
 An intelligent, multi-agent customer support chatbot leveraging **LangGraph**, **RAG (Retrieval-Augmented Generation)**, and **persistent state management** to deliver context-aware support for both internal employees and external customers.
 
+## Demo
+
+See the chatbot in action:
+
+![Customer Support Chatbot Demo](static/workingsystem-ezgif.com-crop.gif)
+
+> **Note**: The demo showcases real-time query categorization, sentiment analysis, RAG-powered response generation, and conversational memory across multiple departments (HR, IT Support, Facilities, Billing, Shipping, and General queries).
+
 ## Key Differentiators
 
 - **Multi-Agent Architecture**: Orchestrated workflow with specialized agents for categorization, sentiment analysis, and response generation
