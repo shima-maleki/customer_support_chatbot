@@ -1,158 +1,68 @@
+import os
+from typing import List, Dict, Any
 import json
 from pathlib import Path
-from typing import List, Dict, Any
-
 from pydantic import BaseModel, Field
 
 from assistant import utils
+from langchain_core.documents import Document
 
-class DocumentMetadata(BaseModel):
-    id: str
-    source: str
-    properties: dict
+def read_all_json_files(folder_path: str) -> List[Dict[str, Any]]:
+    """
+    Reads all JSON files in the specified folder and returns a list of dictionaries
+    containing the filename and its parsed JSON content.
 
-    def obfuscate(self) -> "DocumentMetadata":
-        """Create an obfuscated version of this metadata by modifying in place.
+    Parameters:
+        folder_path (str): Path to the folder containing JSON files.
 
-        Returns:
-            DocumentMetadata: Self, with ID and URL obfuscated.
-        """
+    Returns:
+        List[Dict[str, Any]]: A list of dictionaries with keys 'filename' and 'data'.
+    """
+    result = []
+    
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".json"):
+            full_path = os.path.join(folder_path, filename)
+            try:
+                with open(full_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                result.append(data)
+            except Exception as e:
+                print(f"Failed to read {filename}: {e}")
 
-        original_id = self.id.replace("-", "")
-        fake_id = utils.generate_random_hex(len(original_id))
+    return result
 
-        self.id = fake_id
-        self.url = self.url.replace(original_id, fake_id)
+def create_documents_from_knowledge_base(knowledge_base):
+    """
+    Converts a list of JSON-like knowledge base entries into LangChain Document objects.
+    
+    Each document will have:
+    - `page_content`: from the 'doc' field
+    - `metadata`: 'source' field derived from the 'category' field (spaces -> underscores, '&' -> 'and')
 
-        return self
+    Args:
+        knowledge_base (list): A list of lists, where each inner list contains dictionaries with
+                               'doc' and 'category' keys.
 
+    Returns:
+        List[Document]: A list of LangChain Document objects with properly formatted metadata.
+    """
+    processed_docs = []
 
-class Document(BaseModel):
-    id: str = Field(default_factory=lambda: utils.generate_random_hex(length=32))
-    metadata: DocumentMetadata
-    content: str
-    content_quality_score: float | None = None
-
-    @classmethod
-    def from_file(cls, file_path: Path) -> "Document":
-        """Read a Document object from a JSON file.
-
-        Args:
-            file_path: Path to the JSON file containing document data.
-
-        Returns:
-            Document: A new Document instance constructed from the file data.
-
-        Raises:
-            FileNotFoundError: If the specified file doesn't exist.
-            ValidationError: If the JSON data doesn't match the expected model structure.
-        """
-
-        json_data = file_path.read_text(encoding="utf-8")
-
-        return cls.model_validate_json(json_data)
-
-    def add_quality_score(self, score: float) -> "Document":
-        self.content_quality_score = score
-
-        return self
-
-    def write(
-        self, output_dir: Path, obfuscate: bool = False, also_save_as_txt: bool = False
-    ) -> None:
-        """Write document data to file, optionally obfuscating sensitive information.
-
-        Args:
-            output_dir: Directory path where the files should be written.
-            obfuscate: If True, sensitive information will be obfuscated.
-            also_save_as_txt: If True, content will also be saved as a text file.
-        """
-
-        output_dir.mkdir(parents=True, exist_ok=True)
-
-        if obfuscate:
-            self.obfuscate()
-
-        json_page = self.model_dump()
-
-        output_file = output_dir / f"{self.id}.json"
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(
-                json_page,
-                f,
-                indent=4,
-                ensure_ascii=False,
-            )
-
-        if also_save_as_txt:
-            txt_path = output_file.with_suffix(".txt")
-            with open(txt_path, "w", encoding="utf-8") as f:
-                f.write(self.content)
-
-    def obfuscate(self) -> "Document":
-        """Create an obfuscated version of this document by modifying in place.
-
-        Returns:
-            Document: Self, with obfuscated metadata and parent_metadata.
-        """
-
-        self.metadata = self.metadata.obfuscate()
-        self.parent_metadata = (
-            self.parent_metadata.obfuscate() if self.parent_metadata else None
-        )
-        self.id = self.metadata.id
-
-        return self
-
-    def __eq__(self, other: object) -> bool:
-        """Compare two Document objects for equality.
-
-        Args:
-            other: Another object to compare with this Document.
-
-        Returns:
-            bool: True if the other object is a Document with the same ID.
-        """
-        if not isinstance(other, Document):
-            return False
-        return self.id == other.id
-
-    def __hash__(self) -> int:
-        """Generate a hash value for the Document.
-
-        Returns:
-            int: Hash value based on the document's ID.
-        """
-        return hash(self.id)
-
-
-def read_all_json_files(input_dir: Path | str) -> List[Dict[str, Any]]:
-    """Load and combine all JSON files in a directory into a single list."""
-    input_path = Path(input_dir)
-    if not input_path.exists():
-        raise FileNotFoundError(f"Knowledge base path not found: {input_path}")
-
-    all_docs: List[Dict[str, Any]] = []
-    for file_path in sorted(input_path.glob("*.json")):
-        data = json.loads(file_path.read_text(encoding="utf-8"))
-        if isinstance(data, list):
-            all_docs.extend(data)
-        else:
-            raise ValueError(f"Expected list in {file_path}, got {type(data)}")
-    return all_docs
-
-
-def create_documents_from_knowledge_base(raw_entries: List[Dict[str, Any]]) -> List[Document]:
-    """Convert raw FAQ entries into Pydantic Document objects for ingestion."""
-    documents: List[Document] = []
-    for entry in raw_entries:
-        content = entry.get("doc")
-        if not content:
-            continue
-        metadata = DocumentMetadata(
-            id=entry.get("id", utils.generate_random_hex(length=32)),
-            source=entry.get("category", "unknown"),
-            properties={k: v for k, v in entry.items() if k not in {"doc", "category", "id"}},
-        )
-        documents.append(Document(metadata=metadata, content=content))
-    return documents
+    for data_collection in knowledge_base:
+        for doc in data_collection:
+            if 'doc' in doc and 'category' in doc:
+                raw_metadata = doc['category']
+                cleaned_metadata = raw_metadata.replace(" ", "_").replace("&", "and")
+                content = doc['doc']
+                
+                processed_docs.append(
+                    Document(
+                        page_content=content,
+                        metadata={"source": cleaned_metadata}
+                    )
+                )
+            else:
+                print(f"Skipped entry due to missing keys: {doc}")
+    
+    return processed_docs

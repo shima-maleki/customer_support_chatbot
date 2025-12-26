@@ -1,3 +1,5 @@
+from pathlib import Path
+
 from loguru import logger
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -9,10 +11,7 @@ class Settings(BaseSettings):
     """
     # --- Pydantic Settings ---
     model_config: SettingsConfigDict = SettingsConfigDict(
-        env_file=".env",
-        env_file_encoding="utf-8",
-        extra="allow",
-        case_sensitive=False,
+        env_file=".env", env_file_encoding="utf-8"
     )
 
     # --- Comet ML & Opik Configuration ---
@@ -23,59 +22,47 @@ class Settings(BaseSettings):
         default="customer_support_agent",
         description="Project name for Comet ML and Opik tracking.",
     )
-    COMET_WORKSPACE: str | None = Field(
-        default=None, description="Optional Comet workspace name."
-    )
 
-    # --- Hugging Face Configuration ---
-    HUGGINGFACE_ACCESS_TOKEN: str | None = Field(
-        default=None, description="Access token for Hugging Face API authentication."
+    # --- MongoDB Configuration ---
+    MONGO_URI: str = Field(
+        default="mongodb+srv://saurabhbhardwaj:saurabh27@saurabh-cluster.cuixean.mongodb.net/",
+        description="Connection URI for the local MongoDB Atlas instance.",
     )
-    HUGGINGFACE_DEDICATED_ENDPOINT: str | None = Field(
-        default=None,
-        description="Dedicated endpoint URL for real-time inference."
-    )
+    MONGO_DB_NAME: str = "saurabh-cluster"
+    MONGO_STATE_CHECKPOINT_COLLECTION: str = "assistant_state_checkpoints"
+    MONGO_STATE_WRITES_COLLECTION: str = "assistant_state_writes"
+    MONGO_LONG_TERM_MEMORY_COLLECTION: str = "assistant_long_term_memory"
+
+    # --- Agents Configuration ---
+    TOTAL_MESSAGES_SUMMARY_TRIGGER: int = 30
+    TOTAL_MESSAGES_AFTER_SUMMARY: int = 5
+
+    # --- RAG Configuration ---
+    RAG_TEXT_EMBEDDING_MODEL_ID: str = "text-embedding-3-small"
+    RAG_TOP_K: int = 3
 
     # --- MongoDB Atlas Configuration ---
     QDRANT_DATABASE_NAME: str = Field(
         default="customer_support_klnowledge_base",
         description="Name of the QdrantDB database.",
     )
-    COLLECTION_NAME: str = Field(
-        default="customer_support_klnowledge_base",
-        description="Name of the Qdrant collection for embeddings.",
-    )
-    QDRANT_URI: str | None = Field(
-        default=None,
+    QDRANT_URI: str = Field(
         description="Connection URI for the local MongoDB Atlas instance.",
     )
-    QDRANT_URL: str | None = Field(
-        default=None,
-        description="Connection URL for hosted Qdrant.",
-    )
-    QDRANT_API_KEY: str | None = Field(
-        default=None,
+    
+    QDRANT_API_KEY: str = Field(
         description="API key for QdrantDB service authentication.",
-    )
-    KNOWLEDGE_DATASET_PATH: str = Field(
-        default="knowledge_base",
-        description="Directory containing JSON knowledge base files.",
     )
 
     # --- OpenAI API Configuration ---
     OPENAI_API_KEY: str = Field(
         description="API key for OpenAI service authentication.",
     )
-    EMBEDDINGS_MODEL_ID: str = Field(
-        default="text-embedding-3-small",
-        description="Embedding model identifier for OpenAI embeddings.",
-    )
 
-    # --- Opik / Observability ---
-    OPIK_API_KEY: str | None = Field(default=None, description="API key for Opik.")
-    OPIK_PROJECT_NAME: str | None = Field(default=None, description="Project name for Opik.")
-    OPIK_URL: str | None = Field(default=None, description="Base URL for Opik.")
-    OPIK_ENABLED: bool = Field(default=False, description="Enable Opik instrumentation.")
+    EVALUATION_LLM: str = "gpt-4.1-mini"
+
+    KNOWLEDGE_DATASET_PATH: Path = Path("knowledge_base")
+    EVALUATION_DATASET_FILE_PATH: Path =Path("evaluation_data/evaluation_data.json")
 
     @field_validator("OPENAI_API_KEY")
     @classmethod
