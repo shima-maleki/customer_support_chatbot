@@ -1,0 +1,242 @@
+[
+    {
+        "doc": "Q: How do I report a maintenance issue in the office/store (e.g., a broken light, leaky tap)?\nA1: You can report any maintenance issues via the Facilities Request Portal on the company intranet. Please provide as much detail as possible, including location and a description of the problem. For urgent issues that pose an immediate safety risk, please also notify your manager and contact Facilities directly at [Facilities Urgent Phone Number].",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Who do I contact if the air conditioning/heating isn't working properly?\nA2: Please submit a Facilities Request via the portal, specifying the affected area and the nature of the issue (e.g., too hot, too cold, no airflow). This allows our team to log the issue and dispatch the appropriate technician.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I request office supplies or stationery?\nA3: You can request office supplies through the online Stationery Order Form, accessible on the Facilities & Admin section of the intranet. Orders are typically processed weekly, so please plan your requests in advance.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What's the policy on using the kitchen facilities (e.g., microwaves, fridges)?\nA4: Our kitchen facilities are for shared use. Please ensure you clean up after yourself, label personal items in the fridge, and dispose of rubbish appropriately. There's a 'Kitchen Etiquette' guide posted in all kitchen areas and on the intranet for full details.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Where can I find information about emergency procedures (fire, evacuation)?\nA5: Emergency procedures, including fire escape routes, assembly points, and designated fire wardens, are clearly displayed throughout the office/store locations. You can also find a comprehensive 'Emergency Preparedness Guide' on the Facilities & Admin section of the intranet. Regular drills are also conducted.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I book a meeting room?\nA6: Meeting rooms can be booked using the Outlook Calendar's 'Room Finder' feature. Simply select the room you wish to book as you would invite an attendee to a meeting. Please remember to release the room if your meeting is cancelled.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Is there a lost and found for personal items?\nA7: Yes, the central Lost & Found is managed by the Facilities & Admin team. Please bring any found items to [specific location, e.g., the Reception Desk or Facilities Office]. If you've lost an item, check there or contact Facilities directly.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What are the catering options for internal meetings or events?\nA8: For internal meetings or events requiring catering, you can submit a catering request through the Facilities Request Portal. Please specify the date, time, number of attendees, and dietary requirements. Lead times apply, so plan ahead.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Are there facilities for bicycle storage or showers for commuters?\nA9: Yes, we provide secure bicycle storage racks at [specific location, e.g., the rear of the building/basement car park]. Showers are available in the [specific location, e.g., basement/gym area] for staff convenience. Please refer to the 'Commuter Facilities Guide' on the intranet.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I request a new desk, chair, or ergonomic assessment?\nA10: If you require a new desk, chair, or believe you need an ergonomic assessment due to discomfort, please discuss this with your manager. Your manager can then submit a request to Facilities & Admin, who will arrange an assessment or procure necessary equipment.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: I've lost my access card/fob. How do I get a replacement?\nA11: Report a lost access card/fob immediately to Facilities & Admin or Security. Your old card will be deactivated, and a new one will be issued. A replacement fee may apply as per the 'Access Control Policy'.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I get visitor access for an external guest?\nA12: All visitors must be pre-registered through the Visitor Management System, accessible via the Facilities & Admin section of the intranet. This ensures a smooth check-in process and appropriate security measures. Visitors must check in at Reception upon arrival.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What are the procedures for after-hours access to the office/store?\nA13: After-hours access is typically restricted to authorised personnel with valid access cards. If you need to work outside standard hours, ensure you follow the 'After-Hours Access Policy', which may include signing in/out or notifying security. Always ensure doors are securely locked when leaving.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I report a security concern or suspicious activity?\nA14: Immediately report any security concerns, suspicious activity, or unauthorized individuals to Security personnel (if on-site) or call [Security Control Room Phone Number] and your manager. For non-urgent concerns, you can use the Facilities Request Portal.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Is there CCTV monitoring in the premises?\nA15: Yes, Company ShopUNow operates CCTV monitoring in various areas of our premises for security, safety, and loss prevention purposes. Signage is displayed where CCTV is in operation, in line with our 'CCTV Policy' and data protection regulations.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I dispose of confidential documents securely?\nA16: Confidential documents must be placed in the designated secure shredding bins located throughout the office/store. Please do not dispose of sensitive information in regular waste bins. Facilities & Admin arrange for regular, certified shredding services.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What are the recycling guidelines for different types of waste?\nA17: We have clear recycling bins for paper, plastics, glass, and general waste in all kitchen and office areas. Specific guidelines on what can be recycled are posted above the bins and detailed in our 'Environmental & Recycling Policy' on the intranet.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I dispose of old electronic waste (e-waste) like old phones or keyboards?\nA18: Do not dispose of e-waste in general bins. Please collect old electronic equipment and label it for e-waste disposal. Contact Facilities & Admin to arrange for proper collection and environmentally responsible recycling.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What is Company ShopUNow doing to be more environmentally friendly?\nA19: Company ShopUNow is committed to sustainability through various initiatives, including enhanced recycling programs, energy-saving measures, and reducing waste. Our 'Sustainability Report' and ongoing initiatives are detailed on the intranet's 'Environmental Policy' section.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Can I bring personal items like coffee pods or batteries for recycling at work?\nA20: We encourage staff to recycle. We have specific collection points for common items like batteries in the staff room. For other personal recyclables, please use public recycling facilities unless specific company collection points are provided. Check with Facilities if unsure.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I book business travel (flights, hotels, rental cars)?\nA21: All business travel bookings must be made through our approved corporate travel agency [Agency Name/Portal Link]. Please refer to the 'Travel Policy' on the intranet for guidelines on booking classes, expenses, and approval procedures.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Who handles incoming and outgoing mail/packages?\nA22: Incoming mail and packages are received and sorted by the Facilities & Admin team at Reception. Outgoing mail and packages (for business purposes) can be left at Reception, ensuring they are correctly addressed and labelled. Consult the 'Mail & Courier Policy' for details.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I arrange for a courier service for urgent documents/packages?\nA23: For urgent business courier services, please complete a 'Courier Request Form' on the Facilities & Admin intranet page. Provide details of the item, destination, and urgency. Our team will arrange collection and provide tracking information.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What are the guidelines for displaying notices or posters in the office/store?\nA24: All notices or posters for display in common areas must be approved by Facilities & Admin to ensure compliance with company branding and safety regulations. Please submit your request for approval and display guidance.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Can Facilities help with moving office equipment or furniture?\nA25: Yes, for moving office equipment or furniture, please submit a Facilities Request detailing the items and locations. Our team will coordinate the move, ensuring it's done safely and efficiently, often outside of core working hours to minimize disruption.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What's the protocol for visitors needing Wi-Fi access?\nA26: Guests can access our 'Company ShopUNow Guest Wi-Fi' network. The password is displayed at the Reception desk or can be provided by the Receptionist. It's for general internet Browse only and does not provide access to internal company resources.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Is there a first aid station, and who are the first aiders?\nA27: Yes, designated first aid stations are located at [specific locations, e.g., Reception, Staff Room, Store Manager's Office]. Certified first aiders are identifiable by their badges and their names are listed on notice boards and the Facilities & Admin intranet page. For emergencies, contact a first aider or call [Emergency Number].",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I request a new business card?\nA28: New business card requests can be submitted through the Marketing/Brand portal, which is managed in conjunction with Facilities & Admin. You will need manager approval, and details like your name, title, and contact information.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What should I do if I smell gas or see a potential fire hazard?\nA29: If you smell gas or see a fire hazard, immediately follow emergency procedures: activate the nearest fire alarm and evacuate the building. Do NOT attempt to investigate or handle the situation yourself. Then, notify emergency services [Emergency Number] and Facilities & Admin/Security.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How can I provide feedback or suggestions regarding facilities services?\nA30: We welcome your feedback! You can submit suggestions via the 'Facilities Feedback Form' on the intranet, or directly contact a member of the Facilities & Admin team. We also conduct periodic surveys to gather your input on our services.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: My workstation's power outlets aren't working. How do I get them fixed?\nA1: If your power outlets are not functioning, please submit a Facilities Request via the online portal. Detail the location of your workstation and the issue. Our maintenance team will investigate and arrange for repair or an electrician.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I report a pest control issue (e.g., insects, rodents) in the building?\nA2: Any sightings of pests should be reported immediately to Facilities & Admin via an urgent request on the portal or by calling [Facilities Urgent Phone Number]. We have a regular pest control service, but prompt reporting helps address specific infestations quickly.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What's the process for requesting a new key for an office/storage room?\nA3: New key requests must be approved by your department head and then submitted to Facilities & Admin using the 'Key Request Form' on the intranet. All keys are logged and issued according to our 'Key Control Policy' for security purposes.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How are common areas (e.g., reception, hallways) cleaned, and how often?\nA4: Our cleaning contractors service common areas daily outside of core business hours to minimize disruption. This includes vacuuming, dusting, sanitizing surfaces, and emptying bins. Specific cleaning schedules are available from Facilities upon request.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What should I do if a toilet is blocked or overflowing?\nA5: For any plumbing issues, especially blocked or overflowing toilets, please report it immediately as an urgent maintenance request via the Facilities Portal, or call the urgent Facilities line directly. This requires immediate attention to prevent further damage.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: We are expecting new hires. How do we arrange for their workstations?\nA6: Your manager should submit an 'Onboarding Facilities Request' through the portal as soon as a new hire is confirmed. This ensures that a workstation, IT setup, and access passes are prepared for their start date. Please allow at least [e.g., 5] working days' notice.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Can I reconfigure my office space or desk layout?\nA7: Minor adjustments to your personal workstation furniture are generally permissible. For significant reconfigurations of office space, team moves, or purchasing new furniture, please discuss with your manager, who can then submit a detailed request to Facilities for planning and approval.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What is the process for disposing of old or unused office furniture?\nA8: Please do not dispose of office furniture yourself. If you have old or unused furniture, submit a 'Furniture Disposal Request' to Facilities. We will arrange for its removal, reuse, or environmentally responsible disposal.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: We need more storage space for our department. How do we request it?\nA9: If your department requires additional storage space, discuss your needs with your manager. A formal request outlining the quantity and type of items needing storage, and justification, should be submitted to Facilities & Admin for review and allocation.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Is hot-desking or flexible seating available in certain areas?\nA10: Yes, Company ShopUNow offers hot-desking or flexible seating in [mention specific areas, e.g., 'the marketing hub' or 'designated quiet zones']. Guidelines for hot-desking, including booking procedures and etiquette, are available on the Facilities & Admin intranet section.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How can I report excessive energy use or lights left on?\nA11: If you notice excessive energy consumption, such as lights left on in unoccupied rooms or equipment running unnecessarily, please report it to Facilities & Admin. You can use the general maintenance request form and specify 'Energy Waste' as the issue.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Does the company use renewable energy sources?\nA12: Company ShopUNow is actively exploring and implementing renewable energy solutions where feasible, as part of our commitment to sustainability. Details on our current energy sources and targets are available in the 'Annual Sustainability Report' on the intranet.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How can I contribute to reducing our environmental footprint at work?\nA13: You can contribute by ensuring lights and equipment are turned off when not in use, recycling correctly, conserving water, and using public transport or cycling. Participate in our 'Green Team' initiatives – details are on the intranet.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Are there initiatives to reduce water consumption in the facilities?\nA14: Yes, Facilities actively implements water-saving measures, such as installing low-flow fixtures and conducting regular leak detection. Employees are encouraged to report leaks promptly and be mindful of water usage. Our 'Water Conservation Policy' is on the intranet.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How does the company manage its carbon emissions?\nA15: Company ShopUNow measures and works to reduce its carbon emissions through various strategies, including energy efficiency upgrades, optimizing logistics, and promoting sustainable transport. Our progress and targets are outlined in the 'Sustainability Report' available on the intranet.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: I need to send a registered/certified mail. How do I arrange this?\nA16: For registered or certified mail for business purposes, bring the item to the Facilities & Admin reception desk. You'll need to fill out a brief form, and we will process the sending, ensuring it's tracked appropriately.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What support can Facilities & Admin provide for an internal company event?\nA17: Facilities & Admin can assist with internal company events by arranging room setup, catering coordination, AV equipment setup, cleaning services, and access control. Please submit an 'Event Support Request' on the portal well in advance of your event.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How do I get documents laminated or bound?\nA18: Facilities & Admin provides basic laminating and binding services for official company documents. Please bring your documents to the Admin office with a completed 'Document Services Request Form' detailing your requirements.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Can I request a company vehicle for business travel?\nA19: Company vehicles are available for authorised business travel, subject to availability and our 'Fleet Management Policy'. To request a vehicle, complete the 'Vehicle Request Form' on the Facilities & Admin intranet page. You must have a valid driver's license.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What is the process for receiving large deliveries (e.g., pallets of stock for office use)?\nA20: For large deliveries of non-retail stock intended for office or internal use, please notify Facilities & Admin in advance. Provide supplier details, estimated arrival time, and contents so we can prepare for receipt and storage. Deliveries should be scheduled during working hours.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How often are fire drills conducted, and is attendance mandatory?\nA21: Fire drills are conducted periodically throughout the year to ensure all employees are familiar with evacuation procedures. Attendance is mandatory for all personnel on-site during a drill to comply with health and safety regulations.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: I noticed a slip/trip hazard. Who should I tell?\nA22: Immediately report any slip, trip, or fall hazards (e.g., spilled liquid, loose carpet) to your immediate manager and Facilities & Admin. If possible, cordon off the area to prevent accidents while awaiting cleanup or repair.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Is there a defibrillator (AED) on site, and where is it located?\nA23: Yes, a defibrillator (AED) is available on site for medical emergencies. It is located at [specific, prominent location, e.g., 'the main reception desk' or 'next to the first aid station']. Staff are encouraged to know its location.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How does Facilities ensure the cleanliness and hygiene of restrooms?\nA24: Restrooms are cleaned multiple times throughout the day by our dedicated cleaning team, with particular attention to sanitization and replenishment of supplies. We encourage employees to report any issues promptly via the Facilities Request Portal.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What should I do if a guest or visitor has a medical emergency on company premises?\nA25: In a medical emergency involving a guest or visitor, immediately call for a first aider and emergency services ([Emergency Number, e.g., 999 in UK]). Then, inform Facilities & Admin or Security, who can provide further support and assist emergency personnel.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What's the policy on personal decorations or items at my desk/workstation?\nA26: Employees are permitted to personalize their immediate workstation with a reasonable number of personal items or decorations, provided they do not pose a safety hazard, are not offensive, and do not impede cleaning or maintenance. Please refer to the 'Workspace Tidiness Policy' on the intranet.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How is internal signage (e.g., directional signs, notice boards) managed?\nA27: Facilities & Admin manages all internal signage to ensure consistency and compliance. If you need new directional signs or want to post official notices, please submit a request to Facilities & Admin, outlining the purpose and proposed content.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: Can Facilities assist with external contractors coming to work on our premises?\nA28: Yes, all external contractors (e.g., for repairs, installations) must be pre-arranged and managed by Facilities & Admin. Please notify Facilities well in advance if you plan to engage any external contractors for work on company property.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: What is the process for handling mail that arrives for former employees?\nA29: Mail for former employees should be returned to the sender if possible. If the sender is not clear, please pass it to Facilities & Admin or HR, who will manage its appropriate disposal or forwarding.",
+        "category": "Facilities & Admin"
+    },
+    {
+        "doc": "Q: How can I access the first aid kit if I need a minor plaster or bandage?\nA30: Basic first aid kits for minor injuries (like plasters, antiseptic wipes) are available at the main first aid stations and often in designated areas within each department/store. Please replenish items by notifying your first aider or Facilities & Admin.",
+        "category": "Facilities & Admin"
+    }
+]

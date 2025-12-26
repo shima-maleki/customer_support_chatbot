@@ -1,0 +1,242 @@
+[
+    {
+        "doc": "Q: What shipping options do you offer for deliveries within the UK?\nA1: Company ShopUNow offers several shipping options within the UK: Standard Delivery (typically 3-5 working days), Express Delivery (1-2 working days), and Nominated Day Delivery where you can select a specific delivery date.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What are your shipping costs?\nA2: Shipping costs vary based on the selected delivery option and the size/weight of your order. Standard Delivery starts from [e.g., £3.95], Express Delivery from [e.g., £6.95]. Full details are available on our 'Delivery Information' page on the website and will be calculated at checkout.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Do you offer free shipping?\nA3: Yes, Company ShopUNow offers free Standard Delivery on all orders over [e.g., £50] within the UK. Look out for special promotions that may offer free shipping on lower value orders.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Do you ship internationally?\nA4: Yes, Company ShopUNow ships to a growing number of international destinations. Please select your country at checkout or refer to our 'International Delivery' page for a list of supported countries and associated costs/delivery times.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I choose a specific delivery date or time slot?\nA5: Yes, with our Nominated Day Delivery service, you can choose a specific delivery date that suits you. For time slots, our delivery partners may offer options directly to you via text/email notifications once your parcel is en route.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: How can I track my order?\nA6: Once your order is dispatched, you will receive a shipping confirmation email containing a tracking number and a link to the courier's website. You can also find this information by logging into 'My Account' and viewing your 'Order History'.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: My tracking information hasn't updated in a few days. Is my parcel lost?\nA7: Tracking information can sometimes take 24-48 hours to update, or may not show progress until it reaches the next depot. If your tracking hasn't updated for more than [e.g., 3] working days, and the estimated delivery window has passed, please contact Customer Service.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What does 'Out for Delivery' mean?\nA8: 'Out for Delivery' means your parcel has left the local depot and is on its way to your delivery address today. You should receive it within the courier's expected delivery window for that day.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: My order status says 'Delivered', but I haven't received it. What should I do?\nA9: First, check around your property, with neighbours, or in any safe places the courier might have left it. Also, check for a 'calling card' from the courier. If you still can't locate it after 24 hours, contact Customer Service with your order and tracking number.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Why is my order delayed?\nA10: While we aim for timely delivery, delays can occur due to unforeseen circumstances like adverse weather, courier operational issues, or high demand during peak periods. We will notify you via email if we are aware of significant delays. You can also check your tracking for updates.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: My parcel arrived damaged. What should I do?\nA11: We're sorry to hear that! Please take photos of the damaged parcel and its contents immediately. Then, contact our Customer Service team within [e.g., 48 hours] of delivery, providing your order number and the photos. We will arrange a replacement or refund.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: I received the wrong item in my delivery. How can this be corrected?\nA12: We apologize for the error! Please contact Customer Service with your order number and details of the incorrect item received. We will arrange for the correct item to be sent to you and guide you on how to return the incorrect one at no cost.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: An item is missing from my delivery, but the packaging was intact. What now?\nA13: Please double-check the packing slip inside your parcel. If an item is truly missing, contact Customer Service within [e.g., 48 hours] of delivery with your order number and details of the missing item. We will investigate this discrepancy.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: The courier attempted delivery but I wasn't home. What are my options?\nA14: The courier usually leaves a 'calling card' with instructions for redelivery or collection from a local depot/pickup point. You can often manage this directly via the courier's tracking portal. They may attempt redelivery automatically on the next working day.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: My package is stuck at customs (for international orders). Can you help?\nA15: Once a package reaches customs in your country, it is typically out of our direct control. You may need to contact your local customs office or the courier directly to resolve any outstanding duties or information required for clearance. We recommend tracking regularly.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Do you offer Click & Collect from your stores?\nA16: Yes, Company ShopUNow offers a free Click & Collect service from all our UK stores. Select 'Click & Collect' at checkout and choose your preferred store. You'll receive an email when your order is ready for collection.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: How long do I have to collect my Click & Collect order?\nA17: You typically have [e.g., 7] days from the date you receive your 'Ready for Collection' email to pick up your order. If you can't collect it within this time, please contact the store or Customer Service to arrange an extension.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What do I need to bring to collect my Click & Collect order?\nA18: When collecting your order, please bring your 'Ready for Collection' email (on your phone or printed) and a valid form of photo ID (e.g., driving license, passport). If someone else is collecting on your behalf, they will need your ID and a letter of authorization.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I have my order delivered to a Post Office or local parcel shop (e.g., ParcelShop)?\nA19: Yes, we offer 'CollectPlus' or similar services at checkout, allowing you to have your parcel delivered to a local designated pickup point like a Post Office or newsagent. Select this option at checkout and choose your nearest location.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I change my delivery method from home delivery to Click & Collect after placing an order?\nA20: Once an order has been placed and confirmed, the delivery method generally cannot be changed. You would need to cancel the original order (if possible before dispatch) and place a new one with the desired delivery method.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I change my delivery address after placing an order?\nA21: Due to security reasons, we generally cannot change the delivery address once an order has been placed and processed. Please ensure your address is correct at checkout. If you urgently need to make a change, contact Customer Service immediately, but we cannot guarantee it will be possible.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What happens if my delivery address is incorrect or incomplete?\nA22: If your address is incorrect or incomplete, the courier may be unable to deliver your parcel, or it may be returned to us. If returned, a redelivery fee may apply. Please ensure your address is accurate to avoid delays and additional charges.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Do you offer discreet packaging for certain items (e.g., adult-themed books/toys)?\nA23: All orders from Company ShopUNow are shipped in standard, unbranded packaging to ensure discretion. The outer packaging will not reveal the contents of your order.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I include a gift message or gift wrapping with my order?\nA24: Yes, we offer gift wrapping and the option to include a personalized gift message for a small additional fee. You can select these options during the checkout process.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What if I need a signature on delivery?\nA25: For higher value orders or specific items, a signature on delivery may be required by Company ShopUNow or our courier partner. This will be indicated during checkout and on your tracking information for security purposes.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: How do I return an item I purchased online?\nA26: To return an item, please refer to our 'Returns Policy' on the website. You will typically need to complete an online returns form to generate a return label. You can then drop off the item at a designated courier point or arrange a collection, depending on the item and reason for return.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Who pays for return shipping?\nA27: Return shipping costs are generally covered by Company ShopUNow if the item is faulty, damaged, or incorrect. For change-of-mind returns, the customer is usually responsible for return shipping costs. Full details are in our 'Returns Policy'.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I return an online purchase to a physical store?\nA28: Yes, for your convenience, most online purchases can be returned to any Company ShopUNow physical store within our standard returns period. Please bring your item and proof of purchase (e.g., order confirmation email).",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What happens if my order is returned to sender by the courier?\nA29: If your order is returned to sender due to an undeliverable address, multiple failed delivery attempts, or non-collection, we will contact you upon its receipt. We can then arrange redelivery (which may incur an additional shipping fee) or process a refund for the item(s) less any original shipping charges.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Are there any restrictions on what can be shipped (e.g., flammable items, liquids)?\nA30: Yes, certain items (e.g., aerosols, some DIY chemicals, or oversized/heavy items) may have shipping restrictions due to courier regulations, safety, or size limits. This will be noted on the product page or at checkout. International shipping may have additional restrictions.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I leave specific delivery instructions for the courier (e.g., 'leave in porch')?\nA1: Yes, you can usually add delivery instructions during the checkout process in a designated 'Delivery Notes' field. Our couriers will do their best to follow these, though it's at their discretion and they prioritize safe delivery. For precise instructions, consider using a nominated day delivery.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What happens if my building has restricted access or requires a gate code for delivery?\nA2: If your delivery address has restricted access or requires a gate/entry code, please include this information in the 'Delivery Notes' at checkout. This will help the courier successfully deliver your parcel. If it's a very complex access, consider a Click & Collect option.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q3: My order has multiple items, will they all arrive in one parcel?\nA3: While we strive to consolidate orders into as few parcels as possible, orders with multiple items, especially those from different categories (e.g., a large DIY item and a book), may be shipped in separate parcels and could arrive at different times. You will receive separate tracking numbers for each parcel.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I arrange for a parcel to be held at a courier depot for collection?\nA4: Some of our courier partners allow you to redirect your parcel to a local depot for collection once it's in transit. You can often manage this directly through the courier's tracking portal after receiving your dispatch notification.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Do you offer age-restricted delivery for certain products (e.g., specific DIY tools or games)?\nA5: Yes, for certain age-restricted products (e.g., items with a '18' rating), our couriers operate an age verification policy. The recipient may be asked to show valid photo ID upon delivery. If age cannot be verified, the parcel may be returned.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: How long does international shipping typically take?\nA6: International shipping times vary significantly by destination. Standard international delivery can take anywhere from [e.g., 5-15] working days, while express options may reduce this to [e.g., 2-7] working days. Specific estimates for your country will be provided at checkout.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Will I have to pay customs duties or import taxes on international orders?\nA7: Yes, for orders shipped outside the UK, you will generally be responsible for paying any applicable import duties, customs fees, and local taxes charged by your country's customs authorities upon arrival. These charges are not included in our product or shipping prices.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I track my international order once it leaves the UK?\nA8: Yes, our international shipping partners provide end-to-end tracking. You will receive a tracking number that allows you to monitor your parcel's journey from dispatch in the UK to delivery in your country, often through the local postal service's website once it crosses borders.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What happens if my international parcel gets stuck in customs?\nA9: If your international parcel gets stuck in customs, it's usually due to missing information, unpaid duties/taxes, or a need for a specific import license. You may be contacted by the local customs office or courier for more details. We recommend contacting them directly to resolve the issue.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Are there any countries you don't ship to?\nA10: While we ship to many countries, there are a few exceptions due to logistical limitations, customs regulations, or service provider restrictions. You will find an updated list of excluded countries on our 'International Delivery' page, and your country will not be an option at checkout if we cannot ship there.",
+        "category": "Shipping & Payment (External)"
+    },
+    {
+        "doc": "Q: Which courier companies do you use for deliveries?\nA11: Company ShopUNow partners with reputable couriers such as [e.g., Royal Mail, DPD, Evri (formerly Hermes), UPS] for UK and international deliveries, depending on the service selected and destination. The specific courier for your order will be indicated in your shipping confirmation email.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I choose my preferred courier?\nA12: While we offer various shipping services (Standard, Express, Nominated Day), the specific courier assigned to your order is determined by our logistics system based on efficiency and service level. We generally do not allow customers to choose a specific courier.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What efforts is Company ShopUNow making to reduce the environmental impact of deliveries?\nA13: Company ShopUNow is committed to sustainable deliveries. We optimize delivery routes, partner with couriers who use electric vehicles or have carbon offset programs, and prioritize efficient packaging to minimize our environmental footprint. More details are in our 'Sustainability Report'.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Do you use recycled or recyclable packaging materials?\nA14: Yes, we are actively working towards using 100% recycled and recyclable packaging materials wherever possible for our shipments. We encourage our customers to recycle all packaging responsibly after receiving their order.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I refuse a delivery if I change my mind?\nA15: While possible, we generally recommend accepting the delivery and then following our standard returns process if you change your mind. Refusing delivery can sometimes lead to delays in processing your refund.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: My parcel was left in an unsafe location (e.g., on doorstep, not hidden). What can I do?\nA16: If your parcel was left in an unsafe or inappropriate location, please take photos and contact Customer Service immediately. We will investigate with the courier and address the delivery performance. For future orders, consider using Click & Collect or nominated day delivery to ensure you're home.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: The courier says they need 'proof of delivery' but I don't have it. What now?\nA17: Proof of delivery is usually a signature or a photo taken by the courier. If they claim delivery but you haven't received it and don't have proof, please contact Customer Service. We will launch an investigation with the courier, which may include reviewing their proof of delivery.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What is your policy on re-delivery if I miss my first attempt?\nA18: If you miss a delivery, the courier will typically leave a 'calling card' and may attempt redelivery on the next working day, or provide options to reschedule online or collect from a depot. Please refer to the courier's instructions on the card or tracking page.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I arrange for a large or bulky item to be delivered to a specific room in my house?\nA19: Standard delivery for large or bulky items usually extends only to your doorstep or ground floor. For specific room delivery or installation services, these would need to be specifically offered and selected at checkout, usually at an additional cost. Please check the product page for availability.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What should I do if my address is incorrectly stored in my Company ShopUNow account?\nA20: If your address is incorrect in your account, please update it immediately in your 'My Account' section under 'Address Book'. This will ensure future orders are shipped to the correct location. For orders already placed, refer to Q21 in the previous set regarding changing addresses.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: How do I get a return shipping label?\nA21: To get a return shipping label, log into your 'My Account', go to 'Order History', select the order you wish to return, and follow the 'Create Return' instructions. You will typically be able to download and print a pre-paid return label there.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I use my own courier for returns?\nA22: While you can use your own courier for returns, we highly recommend using our provided return labels and methods as they are tracked and insured. If you use your own, you will be responsible for the cost and ensuring the item reaches us safely and promptly.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What's the process for returning large or bulky items?\nA23: For large or bulky items, our standard return process may involve arranging a special courier collection. Please initiate the return through your 'My Account' or contact Customer Service, and we will guide you through scheduling the collection.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: How long do I have to return an item after receiving my return label?\nA24: Once you generate a return label, we typically ask that you send the item back within [e.g., 14] days to ensure the return is processed within our overall return window. Delays may affect your refund.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What happens if my return parcel gets lost in transit?\nA25: If your return parcel gets lost in transit and you used our provided return label and method, we will investigate with the courier. Please keep your proof of postage. If you used your own method, you would need to claim directly with your chosen courier.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What is Company ShopUNow's full Delivery Policy?\nA26: Our comprehensive Delivery Policy, covering all aspects of shipping times, costs, international delivery, and special conditions, is available on our website. You can find a link in the footer or by searching our Help Centre.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Do you deliver to PO boxes or BFPO addresses?\nA27: We do not typically deliver to PO boxes for security reasons. For BFPO (British Forces Post Office) addresses, please check our 'International Delivery' or 'BFPO Delivery' page for specific guidance, as these often have unique requirements and limitations.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: Can I specify a safe place for my delivery if I won't be home?\nA28: Depending on the courier, you may receive a notification (e.g., text/email) allowing you to specify a safe place for delivery. If you don't receive such a notification, please use the 'Delivery Notes' at checkout, but note that this is at the courier's discretion and our responsibility ends upon delivery to the specified location.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: How are peak seasons (e.g., Christmas, Black Friday) handled for delivery times?\nA29: During peak seasons, delivery times may be longer than usual due to high volumes. We advise ordering well in advance and checking our website for updated delivery estimates during these periods. Express delivery options may also be affected.",
+        "category": "Shipping & Delivery (External)"
+    },
+    {
+        "doc": "Q: What happens if a courier tries to deliver outside of your stated delivery times?\nA30: Our stated delivery times are estimates. If a courier attempts delivery outside of these, it could be due to unforeseen delays in their route. If this causes significant inconvenience, or if you believe the attempt was made outside reasonable hours, please contact Customer Service.",
+        "category": "Shipping & Delivery (External)"
+    }
+]

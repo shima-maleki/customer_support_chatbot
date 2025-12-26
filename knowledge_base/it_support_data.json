@@ -1,0 +1,242 @@
+[
+    {
+        "doc": "Q: I can't log in to my computer/work applications. What should I do?\nA1: First, try restarting your computer. If the issue persists, ensure you're using the correct username and password. If you've forgotten your password or believe your account is locked, please use the 'Forgot Password' link on the login page or contact the IT Helpdesk immediately at [IT Helpdesk Phone Number] or [IT Helpdesk Email].",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I reset my password for my company account?\nA2: You can reset your password securely via the self-service password portal at https://aka.ms/sspr. If you're unable to access this, contact the IT Helpdesk for assistance. For security, never share your password.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My account keeps getting locked out. Why is this happening and how can I prevent it?\nA3: Frequent lockouts can occur due to incorrect password attempts, old credentials saved on devices, or sometimes due to sync issues. Please ensure you update your password on all devices (computer, mobile, tablet) whenever you change it. If it continues, contact IT Helpdesk; we can check for specific lockout triggers.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I request access to a new system or application?\nA4: Access to new systems or applications typically requires approval from your line manager. Once approved, your manager should submit an access request ticket to the IT Helpdesk through the IT Service Portal. Please include the specific system name and your business justification.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I'm a new employee. How do I get my initial IT setup and access?\nA5: Welcome to Company ShopUNow! Your manager should have submitted an IT onboarding request. On your first day, IT will guide you through setting up your computer, email, and initial access to essential systems. If you have any issues, please contact the IT Helpdesk directly.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My computer is running very slow. How can I troubleshoot it?\nA6: Try restarting your computer first. Close unnecessary applications and check your storage space. If it remains slow, it could indicate hardware issues or a need for optimization. Please submit an IT ticket with details about the performance issue, and IT will investigate.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My keyboard/mouse/monitor isn't working. What should I do?\nA7: Check all cables are securely connected. Try restarting your computer. If the issue persists, the peripheral might be faulty. Please log a ticket with the IT Helpdesk, detailing the specific non-functional equipment.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I report a fault with a till (POS) system in the store?\nA8: For any issues with till (Point of Sale) systems, please report it immediately to your Store Manager. They will then follow the established procedure to log an urgent ticket with the IT Helpdesk, providing details of the till number and the nature of the fault.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My company laptop has a cracked screen/physical damage. How do I get it repaired or replaced?\nA9: Accidental damage should be reported to the IT Helpdesk immediately. Please submit a ticket with photos of the damage. IT will assess whether it can be repaired or if a replacement is needed and will guide you through the process.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Can I get a larger monitor or a docking station for my workstation?\nA10: Requests for additional hardware are subject to business justification and approval from your manager and IT. Please discuss your needs with your manager, who can then submit an IT request outlining the business benefit.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: An application I use regularly is crashing or not responding. What's the fix?\nA11: Try closing and reopening the application. If that doesn't work, restart your computer. Ensure your operating system and the application itself are up to date. If the problem continues, log an IT ticket, including the application name and any error messages you see.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I install new software on my company computer?\nA12: Most approved software can be installed via the 'Software Center' (Windows) or 'Self Service' (Mac) on your computer. If the software isn't available there or requires a license, please submit an IT request with a business justification and manager approval.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My Microsoft Office (Word, Excel, Outlook) programs are having issues.\nA13: Try a quick repair of your Office installation via 'Programs and Features' in Control Panel (Windows) or reinstalling the application. If the issue persists, provide a detailed description of the problem and any error messages to the IT Helpdesk via a ticket.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How often are software updates pushed out, and do I need to do anything?\nA14: Software updates (for operating systems and applications) are regularly pushed out by IT to ensure security and performance. Often, they occur automatically overnight or prompt you to restart your computer. Please action these prompts promptly to keep your system secure and efficient.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I need a specific software license for a project. How do I get it?\nA15: Software license requests require manager approval and often budget allocation. Please discuss with your manager, who can then initiate a request through the IT Service Portal, specifying the software and project it's for.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My Wi-Fi isn't connecting/is very slow. What should I check?\nA16: Ensure your Wi-Fi is enabled on your device. Try forgetting the network and reconnecting. If it's a general issue, restart your router/access point if safe to do so. If the problem persists for multiple users, it might be a network issue; please report to IT Helpdesk.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: The shared network drive isn't accessible. Is it down?\nA17: First, try restarting your computer. If the drive is still inaccessible, it might be a network issue or the server is down. Please contact the IT Helpdesk immediately, providing details of which drive you're trying to access.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I can't print to the office/store printer. What's wrong?\nA18: Check if the printer is on and has paper/toner. Ensure your computer is connected to the correct printer. Try restarting your computer and the printer. If the issue remains, submit an IT ticket with the printer's location and any error messages on its display.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I connect my personal mobile device to the company Wi-Fi network?\nA19: For company Wi-Fi access on personal devices, you typically need to connect to the 'Company ShopUNow Guest' network or follow specific instructions provided by IT for BYOD (Bring Your Own Device) registration. Do not attempt to connect personal devices to the secure internal network without explicit IT guidance.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: The internet is completely down in our store/office. What should we do?\nA20: In case of a complete internet outage, immediately notify your Store/Office Manager, who will then contact the IT Helpdesk's emergency line. Provide details on how long it's been down and if any other services are affected. This is a high-priority issue.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I received a suspicious email/link. Is it a phishing attempt?\nA21: If you receive a suspicious email, do NOT click on any links or open attachments. Forward the email to [email address for reporting suspicious emails, e.g., phishing@companyshopunow.com] and then delete it from your inbox. Never provide personal or login information in response to unsolicited emails.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I think my computer might have a virus or malware. What should I do?\nA22: Disconnect your computer from the network (unplug the Ethernet cable or turn off Wi-Fi) immediately to prevent further spread. Then, report it to the IT Helpdesk with details of what you've observed. Do not attempt to fix it yourself.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How are company data and my files backed up?\nA23: Company data stored on shared network drives and in approved cloud storage (e.g., SharePoint, OneDrive) is automatically backed up regularly by IT. Files saved locally on your desktop or 'My Documents' folder on your computer are NOT automatically backed up; please ensure you save important work to network drives or approved cloud storage.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I access company resources (e.g., shared drives, internal apps) when working remotely?\nA24: When working remotely, you must connect via the company's Virtual Private Network (VPN). Instructions for installing and connecting to the VPN are available on the IT section of the intranet. If you encounter issues, contact the IT Helpdesk.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: What is the company's policy on removable media (USB drives)?\nA25: Our 'Data Security Policy' restricts the use of unapproved removable media (e.g., personal USB drives) to prevent data loss or malware introduction. If you need to use a USB, it must be company-issued and scanned by IT. Transferring company data to personal USBs is strictly prohibited.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My company email isn't sending or receiving messages. What's wrong?\nA26: Check your internet connection. Try restarting Outlook/your email client. If you're using webmail, try clearing your browser's cache. If the issue persists, submit an IT ticket with details of any error messages or specific symptoms (e.g., can send but not receive).",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I set up my company email on my mobile phone?\nA27: Instructions for setting up company email on approved mobile devices (iOS/Android) are available on the IT intranet. We recommend using the designated company email app (e.g., Outlook Mobile). For security, your device may need to meet certain IT compliance standards.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I'm having trouble with Microsoft Teams/company chat software.\nA28: Try restarting the application. Check your internet connection. Ensure your microphone/camera settings are correct within Teams itself. If the problem persists, log an IT ticket with details of the issue (e.g., audio not working, messages not sending).",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I share large files with colleagues or external partners securely?\nA29: For internal sharing, use shared network drives or Microsoft SharePoint/OneDrive. For external sharing of large files, use approved company cloud storage platforms with secure sharing links (e.g., OneDrive links with expiration dates). Avoid using personal file-sharing services for company data. Consult the 'Data Sharing Policy' or IT for guidance.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How can I request a new video conferencing license for external meetings?\nA30: Most employees have access to standard video conferencing capabilities (e.g., Teams/Zoom basic). If you require advanced features or a dedicated license for frequent external meetings, discuss this with your manager and submit an IT request outlining the business need.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My company laptop/desktop is getting old and slow. How can I request an upgrade or replacement?\nA1: Company ShopUNow operates a hardware refresh cycle, typically every [e.g., 3-4] years. If you believe your device is impacting your productivity significantly before the refresh cycle, discuss it with your manager. They can then submit an IT request for assessment and potential early replacement, based on business need.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I'm leaving the company. What do I need to do with my company IT equipment?\nA2: When you leave Company ShopUNow, all company-issued IT equipment (laptops, phones, peripherals) must be returned to IT. Your manager will coordinate the return process with IT, which typically happens on your last day. Please ensure all personal files are removed from the device before returning it.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Can I install personal software or games on my company computer?\nA3: No, installing personal software or games on company-issued computers is strictly prohibited as per our 'IT Acceptable Use Policy'. This is to maintain system security, stability, and compliance with software licenses. Unauthorized software will be removed.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My work phone is damaged/lost. How do I get a replacement?\nA4: Immediately report a damaged or lost work phone to the IT Helpdesk and your manager. For lost phones, IT will remotely wipe the device if possible. A replacement will be arranged based on our mobile device policy; fees may apply for negligence.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I connect a new external device (e.g., webcam, microphone) to my company laptop?\nA5: For common peripherals, your computer should automatically install the necessary drivers. If not, or if it's a specialized device, contact the IT Helpdesk via a ticket. Do not install drivers from unknown sources.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I'm experiencing frequent disconnections from the VPN. What could be the cause?\nA6: Frequent VPN disconnections can be due to unstable home internet, a weak Wi-Fi signal, or issues with the VPN client. Try restarting your router and computer. If it persists, log an IT ticket with details of your internet provider and location, and IT can help troubleshoot the connection.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Our store's network is experiencing intermittent slowdowns. Who should I contact?\nA7: For intermittent network slowdowns affecting multiple systems or users in a store, report it to your Store Manager, who will then escalate it as an urgent priority to the IT Helpdesk, providing specific details of the affected systems and timeframes.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I connect to a specific shared network folder that I've been granted access to?\nA8: You can usually connect to shared network folders by typing the network path (e.g., `\\\\server\\sharename`) into your Windows Explorer address bar or by mapping it as a network drive. If you have trouble accessing it after being granted permission, contact IT Support with the full path.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: We need to set up a temporary network connection for an event in the store. Can IT assist?\nA9: Yes, IT can assist with planning and setting up temporary network connections for approved company events. Please submit an IT request well in advance, detailing the event, location, required bandwidth, and duration, so we can assess and prepare.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My headset isn't working for calls on Teams/Zoom. What are common fixes?\nA10: Check if the headset is properly plugged in (or paired if Bluetooth). Ensure it's selected as the default input/output device in your computer's sound settings AND within the Teams/Zoom application settings itself. Try restarting the application or your computer. If issues persist, contact IT.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: What is the company's policy on remote work and IT security?\nA11: Our 'Remote Work IT Security Policy' outlines requirements for secure remote access, including mandatory VPN use, strong passwords, and protecting company data on personal networks. It also provides guidelines for home network security and physical security of company equipment.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I accidentally clicked on a suspicious link. What should I do immediately?\nA12: If you accidentally clicked a suspicious link, immediately disconnect your computer from the internet (unplug network cable/turn off Wi-Fi). Then, report the incident to the IT Helpdesk and your manager without delay. Do not try to access sensitive information or continue working on that device.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How often should I change my password, and what are the password requirements?\nA13: Our 'Password Policy' requires passwords to be changed every [e.g., 90] days. Passwords must be at least [e.g., 12] characters long, contain a mix of uppercase letters, lowercase letters, numbers, and special characters. Do not reuse old passwords.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Are personal cloud storage services (like Dropbox, Google Drive) allowed for company data?\nA14: No, using personal cloud storage services for company data is strictly prohibited due to security and compliance risks. All company data must be stored on approved company network drives or official cloud collaboration platforms (e.g., Company ShopUNow's SharePoint/OneDrive for Business).",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How can I securely dispose of old company documents or data?\nA15: For physical documents, use the designated shredding bins in the office/store. For digital data on company devices, IT handles secure data wiping. Do not attempt to wipe or dispose of company hard drives yourself. Consult IT for guidance on data disposal.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: My email inbox is full. How can I manage my mailbox size?\nA16: You can manage your mailbox size by deleting unnecessary emails, especially those with large attachments. Consider archiving older emails to your local machine (if allowed) or using online archives provided by IT. Consult the 'Email Usage Policy' on the IT intranet for best practices.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I need to conduct an online meeting with external participants. Which tool should I use?\nA17: For online meetings with external participants, use Company ShopUNow's approved platforms such as Microsoft Teams or Zoom (if licensed). These platforms offer secure meeting features and are supported by IT. Avoid using unapproved personal video conferencing tools for company business.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I request a software patch or update for a specific business application?\nA18: Software patches and updates for critical business applications are managed centrally by IT. If you believe a specific patch is needed or an update is causing issues, please report it to the IT Helpdesk with details of the application and the observed problem.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I'm having trouble with a specific retail software (e.g., inventory management, CRM). Who do I contact?\nA19: For issues with specific retail software, first check if there's an internal super-user or department lead. If not, or if it's a technical error, contact the IT Helpdesk, providing the software name, version, and exact error message/problem.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Can IT help with setting up or troubleshooting my personal home printer for work?\nA20: IT Support primarily focuses on company-issued equipment. While we can offer basic guidance, we are not equipped to fully troubleshoot or support personal home printers. We recommend using company-approved printing solutions.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How do I check the status of an IT ticket I've submitted?\nA21: You can check the status of your IT tickets by logging into the IT Service Portal at https://ut.service-now.com/sp?id=ut_sc_home. You will see a list of your submitted tickets and their current status, along with any comments from the IT team.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Is there an IT knowledge base or FAQ I can refer to before logging a ticket?\nA22: Yes! The IT section of the Company ShopUNow intranet contains a comprehensive knowledge base and FAQ section with guides for common issues, how-to articles, and troubleshooting tips. We encourage you to check there first.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: What are IT's working hours, and what happens if I have an urgent issue outside of hours?\nA23: IT Helpdesk standard working hours are [e.g., 8 AM - 5 PM, Monday to Friday]. For urgent issues outside of these hours (e.g., critical system outage impacting sales), please refer to the emergency contact procedure outlined on the IT intranet or leave a message on the urgent helpdesk line.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Can I bring my personal laptop to work and connect it to the company network?\nA24: Connecting personal laptops to the company's internal network is generally not permitted for security reasons. If there's a specific business need, it must be pre-approved by IT and may require specific security configurations. Refer to the BYOD policy.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I need to request a specific data export or report from a company system. Who handles this?\nA25: For standard reports, check if the system itself has reporting capabilities. If you need a custom data export or complex report, submit a request to the IT Helpdesk, detailing the data required, the system it's from, and the business purpose. Data governance rules apply.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: Does IT provide training on new software or IT systems?\nA26: Yes, IT provides training when new software or significant system changes are implemented. We also have online training modules and guides available on the IT intranet for common applications and cybersecurity awareness. Contact IT if you have specific training needs.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How can I learn more about cybersecurity best practices for my role?\nA27: IT regularly provides cybersecurity awareness training, including mandatory annual online modules. You can also find tips and guidelines on phishing prevention, secure password practices, and data protection on the IT intranet's 'Cybersecurity Hub'.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: I'm not familiar with using [specific software]. Is there a quick guide?\nA28: For commonly used software, IT often creates quick reference guides or links to official documentation on the IT intranet. Check the 'Software Guides' section. If you can't find what you need, submit an IT ticket, and we can point you to resources or arrange basic assistance.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: How does IT communicate planned system maintenance or outages?\nA29: IT communicates planned system maintenance, upgrades, or potential outages via email announcements, notifications on the company intranet, and sometimes messages within critical applications. We aim to provide ample notice for any scheduled downtime.",
+        "category": "IT Support"
+    },
+    {
+        "doc": "Q: What is the process for suggesting IT improvements or new technologies?\nA30: We welcome suggestions for IT improvements or new technologies that could benefit Company ShopUNow. Please submit your ideas via the 'IT Suggestion Box' on the IT Service Portal, providing details on the proposed solution and its potential business benefits. Relevant suggestions will be reviewed by the IT management team.",
+        "category": "IT Support"
+    }
+]

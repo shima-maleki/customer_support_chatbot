@@ -1,0 +1,242 @@
+[
+    {
+        "doc": "Q: How can I view my past orders and their billing details?\nA1: You can view your past orders and their associated billing details by logging into your 'My Account' section on the Company ShopUNow website. Navigate to 'Order History' where each order will show its status, items, and billing summary.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: I see a charge from 'Company ShopUNow' on my bank statement that I don't recognize. What should I do?\nA2: Please check your 'My Account' order history for any recent purchases. If you still don't recognize the charge, please contact our Customer Service team immediately at [Customer Service Phone Number] or via email at [Customer Service Email] with the date and amount of the charge. We will investigate this for you.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Do you send paper invoices or are they all digital?\nA3: To minimize our environmental impact, Company ShopUNow primarily issues digital invoices and order confirmations via email. You can also access and download them from your 'My Account' section online.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How do I get a copy of my invoice for a previous purchase?\nA4: You can download and print invoices for all your past purchases directly from the 'Order History' section within your 'My Account' on our website. Each order will have a link to 'View Invoice' or 'Download Receipt'.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Why was I charged a different amount than the price shown on the product page?\nA5: This can happen due to various reasons such as sales tax, shipping fees, or if a discount code expired or was incorrectly applied. Please review your order confirmation email, which details all charges. If you still believe there's an error, contact Customer Service with your order number.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What payment methods do you accept?\nA6: Company ShopUNow accepts a wide range of payment methods, including major credit and debit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, and Google Pay. We also offer [mention any buy-now-pay-later options, e.g., Klarna, Clearpay] for eligible purchases.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: My payment failed during checkout. What should I do?\nA7: If your payment failed, please check your card details for any typos, ensure sufficient funds, or try a different payment method. Your bank might also have declined the transaction; contact them for clarification. If the issue persists, our Customer Service team can assist.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I pay for my online order using a gift card?\nA8: Yes, Company ShopUNow gift cards can be used as a payment method during online checkout. Simply enter your gift card number and PIN in the designated field.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Do you offer 'buy now, pay later' options?\nA9: Yes, we partner with [e.g., Klarna, Clearpay] to offer flexible 'buy now, pay later' options for eligible purchases. You can select this as a payment method at checkout and follow their instructions for approval.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I split my payment across multiple credit cards?\nA10: Currently, our online system does not support splitting payments across multiple credit cards for a single order. You would need to use one primary payment method per transaction.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How long does it take for a refund to process and appear on my statement?\nA11: Once your return is received and processed, refunds typically take [e.g., 5-10] business days to appear on your original payment method statement. Processing times can vary depending on your bank or credit card provider.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: I returned an item, but haven't received my refund yet. What should I do?\nA12: Please allow up to [e.g., 10] business days from the date your return was confirmed as received for the refund to process. If it has been longer, please contact Customer Service with your order and return tracking number, and we will investigate.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: If I return part of an order that qualified for a discount, how is my refund calculated?\nA13: If you return part of an order that qualified for a discount (e.g., 'buy one get one free' or 'spend X save Y'), your refund will be adjusted to reflect the items you keep at their original price, or the revised discount based on the remaining items. Details will be explained in your refund confirmation.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Will my shipping fees be refunded if I return an item?\nA14: Shipping fees are generally non-refundable unless the return is due to a Company ShopUNow error (e.g., incorrect or damaged item received). Please refer to our 'Returns Policy' for full details.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: I paid with a gift card and returned an item. How will my refund be issued?\nA15: Refunds for purchases made with a gift card will be issued back to a new digital gift card or directly to the original gift card if it remains active. You will receive the gift card details via email.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: I was charged twice for the same order. How can I get this fixed?\nA16: We apologize for any double charges. Please contact our Customer Service immediately with your order number and proof of the duplicate charge (e.g., a screenshot of your bank statement). We will investigate and issue a refund for the erroneous charge promptly.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: The price of an item dropped shortly after I purchased it. Can I get a price adjustment?\nA17: Company ShopUNow offers price adjustments under certain conditions. If an item you purchased goes on sale within [e.g., 7] days of your purchase, please contact Customer Service with your order number, and we will review your eligibility for a refund of the difference. Exclusions may apply during major sales events.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How do I dispute an incorrect charge on my Company ShopUNow bill?\nA18: If you believe a charge is incorrect, please gather your order details and contact Customer Service immediately. Provide the specific charge you are disputing and your reason. We will open an investigation and work with you to resolve the issue.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: My discount code didn't apply at checkout. Can it be applied after the order is placed?\nA19: Unfortunately, discount codes generally cannot be applied after an order has been placed as the payment has already been processed. Please ensure your discount code is correctly entered and applied before completing your purchase. If you experienced a technical issue, contact Customer Service.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I get a refund if I purchased a product and then found a better deal elsewhere?\nA20: Our standard returns policy applies. If the item is unused and within the return window, you may return it for a refund as per our 'Returns Policy'. We do not typically match competitor pricing after a purchase has been made.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Is my credit card information stored securely on your website?\nA21: Yes, Company ShopUNow takes your payment security very seriously. We use industry-standard encryption (SSL/TLS) to protect your payment details during transmission. Your full credit card number is never stored on our servers; only tokenized versions are kept for secure processing.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How do I update my saved payment methods in my account?\nA22: You can update or remove saved payment methods by logging into your 'My Account' and navigating to the 'Payment Methods' or 'Wallet' section. Here you can add new cards or delete existing ones.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What should I do if I suspect fraudulent activity on my Company ShopUNow account?\nA23: If you suspect any fraudulent activity, immediately change your account password. Then, contact our Customer Service team at [Customer Service Phone Number] or [Customer Service Email] to report the activity. We will investigate and take necessary security measures.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Do you use 3D Secure (e.g., Visa Secure, Mastercard Identity Check) for online payments?\nA24: Yes, for your security, Company ShopUNow utilizes 3D Secure protocols (such as Verified by Visa and Mastercard Identity Check) for online credit and debit card transactions. This adds an extra layer of authentication during checkout.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I remove my saved payment information from my account completely?\nA25: Yes, you have the option to remove any saved payment methods from your 'My Account' at any time. Simply go to the 'Payment Methods' section and select the option to delete the card.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How do I manage or cancel a subscription I have with Company ShopUNow?\nA26: If you have a subscription (e.g., for a book club or regular DIY supply delivery), you can manage or cancel it by logging into your 'My Account' and navigating to the 'Subscriptions' section. You'll find options to modify or cancel your recurring order there.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: When will my recurring subscription payment be charged each month/period?\nA27: Your recurring subscription payment will be charged on the same day of the month/period that you initially signed up, or on the day your first order was placed. You can view your next billing date in the 'Subscriptions' section of your 'My Account'.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I update the payment method for my subscription?\nA28: Yes, you can update the payment method for your active subscription by logging into your 'My Account', going to the 'Subscriptions' section, and selecting the option to 'Update Payment Method' for your specific subscription.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What happens if my subscription payment fails?\nA29: If a subscription payment fails, you will receive an email notification from Company ShopUNow. We will typically attempt to re-charge your payment method a few times. If it continues to fail, your subscription may be paused or cancelled. Please update your payment information promptly.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Are there any fees for cancelling a subscription?\nA30: Company ShopUNow's subscription cancellation policy varies depending on the specific subscription service. Please review the terms and conditions of your particular subscription on our website or within your 'My Account' for any associated cancellation fees or notice periods.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Is VAT (Value Added Tax) included in the prices shown on your website?\nA1: Yes, for customers within the UK, all prices displayed on the Company ShopUNow website are inclusive of VAT at the current standard rate. The breakdown will be shown at checkout and on your invoice.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: If I'm shopping from outside the UK, will I be charged VAT or local taxes?\nA2: For international orders, VAT will be removed at checkout. However, you will be responsible for any applicable local import duties, customs fees, or taxes in your country upon delivery. We advise checking your local customs office for details before placing an order.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What currency will I be charged in if I'm an international customer?\nA3: All transactions on the Company ShopUNow UK website are processed in Great British Pounds (GBP). If you are paying with an international card, your bank will convert the GBP amount to your local currency, and they may apply their own conversion rates and fees.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How are currency exchange rates handled if I pay with a foreign card?\nA4: When paying with a foreign card, the currency exchange rate used will be determined by your bank or payment provider at the time the transaction is processed. Company ShopUNow is not responsible for these rates or any associated foreign transaction fees your bank may charge.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I get a VAT receipt for my business?\nA5: Yes, all our digital invoices serve as valid VAT receipts for businesses. You can download these from your 'My Account' section under 'Order History'. If you require specific business details to be on the invoice, please ensure your account details are updated before purchase.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Why do I see a 'pending' or 'authorization' charge on my bank statement?\nA6: When you place an order, your bank may place a temporary 'pending' or 'authorization' hold on your funds for the purchase amount. This is not an actual charge but reserves the funds. The actual charge occurs when your order is dispatched. The hold usually drops if the order is cancelled or expires after a few days.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: My order was cancelled, but the charge is still on my bank statement. When will it disappear?\nA7: If your order was cancelled, the pending authorization hold on your funds will typically be released by your bank within [e.g., 3-5] business days. This is not a charge and will disappear automatically; it will not appear as a refund. If it persists longer, please contact your bank.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I pay with a bank transfer or direct debit?\nA8: Currently, Company ShopUNow does not support direct bank transfers or direct debits for standard online retail purchases. We accept major credit/debit cards, PayPal, and other digital payment methods as listed on our checkout page.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Why was my payment declined, even though I have sufficient funds?\nA9: Payment declines can occur for several reasons, even with sufficient funds. Common reasons include: incorrect card details, bank's fraud prevention systems, card expiry, or exceeding daily transaction limits. Please contact your bank directly for specific reasons for the decline.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I change the payment method after I've placed an order?\nA10: Once an order has been placed and payment authorized, the payment method generally cannot be changed. If you need to use a different payment method, you would need to cancel the existing order (if possible before dispatch) and place a new one.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How do my loyalty points affect my billing?\nA11: If you are a member of the Company ShopUNow loyalty program, any loyalty points redeemed during checkout will be applied as a discount to your order total before the final payment is processed. The reduced amount will then be charged to your chosen payment method.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: My gift card isn't working at checkout. What could be the problem?\nA12: Ensure you are entering the correct gift card number and PIN. Check if the gift card has sufficient balance or if it has expired. If issues persist, please contact Customer Service with your gift card details.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I combine multiple gift cards on a single purchase?\nA13: Yes, you can typically combine multiple Company ShopUNow gift cards on a single purchase during checkout. Simply enter each gift card number and PIN one by one.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What is store credit, and how do I use it?\nA14: Store credit is a non-cash balance issued by Company ShopUNow, often for returns without a receipt or as a goodwill gesture. It's usually linked to your customer account and can be applied as a payment method during checkout for future purchases.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I get a cash refund for a gift card or store credit balance?\nA15: Gift cards and store credit balances are typically non-refundable for cash. They can only be redeemed for purchases at Company ShopUNow. Please refer to the specific terms and conditions of your gift card or store credit.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: I need to change my order before it ships. How will this affect my billing?\nA16: If you modify your order before it ships, any changes to the total cost will be reflected in your final charge. If the cost decreases, the original authorization hold may be reduced, or a partial refund issued. If it increases, a new authorization for the additional amount may be processed.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: When will I be charged for a pre-order?\nA17: For pre-orders, Company ShopUNow typically places an authorization hold on your payment method at the time of order placement to verify funds. The actual charge will only occur when your pre-ordered item is ready to ship.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I update the payment method for a pre-order if my card expires before release?\nA18: Yes, if your payment method for a pre-order is due to expire, you can update it by logging into your 'My Account' and navigating to your 'Pre-orders' or 'Payment Methods' section. We recommend doing this well in advance of the release date to avoid delays.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: If an item on my pre-order is cancelled by Company ShopUNow, will I be charged for the rest of the order?\nA19: If an item from your pre-order is cancelled by us, you will not be charged for that specific item. The rest of your pre-order will proceed as planned, and you will only be charged for the items that are shipped.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What happens if a pre-ordered item's price changes before release?\nA20: If the price of a pre-ordered item changes before its release, Company ShopUNow will honor the price you originally paid at the time of your pre-order placement. You will not be charged more if the price increases, nor will you receive a refund if it decreases.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Why do I sometimes need to complete an extra security check (e.g., bank OTP) during checkout?\nA21: This extra step is part of 3D Secure (e.g., 'Verified by Visa', 'Mastercard Identity Check'), which adds an additional layer of security to online transactions. It's your bank's way of verifying that you are the legitimate cardholder, protecting you from fraud.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How can I protect myself from phishing emails related to billing from Company ShopUNow?\nA22: Be suspicious of emails asking for personal or payment information directly. Company ShopUNow will never ask for your full card number or password via email. Always check the sender's email address and hover over links before clicking. If in doubt, go directly to our official website to log in or contact Customer Service.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Do you store my CVV/CVC code for credit cards?\nA23: For your security, Company ShopUNow does NOT store your CVV/CVC (the 3 or 4-digit security code on the back of your card). You will need to re-enter this code for each transaction, even if other card details are saved.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What is a chargeback, and how does it work with Company ShopUNow?\nA24: A chargeback is when you dispute a transaction directly with your bank or card issuer. We encourage you to contact Company ShopUNow Customer Service first to resolve any issues. If you initiate a chargeback, your bank will investigate, which can be a lengthy process.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How does Company ShopUNow protect my personal billing information?\nA25: We protect your personal billing information using robust encryption, secure servers, and compliance with data protection regulations (e.g., GDPR). Access to this data is strictly controlled, and we regularly audit our security measures. Our 'Privacy Policy' provides full details.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I use multiple discount codes on a single order?\nA26: Generally, Company ShopUNow allows the use of one discount code per order. Promotional terms and conditions will specify if certain codes can be combined. The system will usually apply the best available discount if multiple are entered.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What is the maximum order value I can place online?\nA27: While we don't have a strict maximum order value, very large or unusual orders may be subject to additional security checks or require payment via alternative methods. If you plan a very large purchase, please contact Customer Service in advance.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: Can I pay with cash or cheque for online orders?\nA28: No, Company ShopUNow does not accept cash or cheque payments for online orders. Online payments must be made using digital payment methods listed on our checkout page.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: How long does Company ShopUNow retain my billing records?\nA29: Company ShopUNow retains billing records for a period required by law for tax and accounting purposes, typically [e.g., 6-7] years. After this period, records are securely archived or destroyed in accordance with our data retention policy.",
+        "category": "Billing & Payment (External)"
+    },
+    {
+        "doc": "Q: What happens if I forget to apply a gift card or promotion code at checkout?\nA30: Unfortunately, if a gift card or promotion code is not applied at the time of checkout, it cannot typically be applied to the order retroactively once the payment is processed. Please ensure all codes are entered before completing your purchase.",
+        "category": "Billing & Payment (External)"
+    }
+]
