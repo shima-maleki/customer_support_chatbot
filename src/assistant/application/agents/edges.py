@@ -4,13 +4,13 @@ from assistant.application.agents.state import CustomerSupportAgentState
 def determine_route(support_state: CustomerSupportAgentState) -> str:
 
     # Determine the next node based on query sentiment and category.
-    # - Escalate to human support agent if sentiment is negative i.e fill form for escalation
-    # - Escalate to emergency on-call team if sentiment is distress i.e fill form for on-call doctors
-    # - Otherwise, use department-specific RAG response
+    # - For all query categories (including GENERAL), generate appropriate responses
+    # - Only escalate to on-call team in extreme distress cases (not implemented in this version)
+    # - For negative sentiment, still try to provide a helpful response
 
-    if support_state["query_sentiment"] == "Negative":
-        return "accept_user_input_oncall"
-    elif (support_state["query_sentiment"] in ["Neutral", "Positive"]) and (support_state["query_category"] in ['HR', 'IT_SUPPORT', 'FACILITY_AND_ADMIN', 'BILLING_AND_PAYMENT', 'SHIPPING_AND_DELIVERY']):
-        return "generate_department_response"
-    else:
-        return "accept_user_input_oncall"
+    query_category = support_state.get("query_category", "GENERAL")
+    query_sentiment = support_state.get("query_sentiment", "Neutral")
+
+    # Always route to generate_department_response - it handles both RAG and conversational responses
+    # based on the category (GENERAL vs specific departments)
+    return "generate_department_response"

@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from assistant.infrastructure.qdrant.service import vectorstore
 from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.prompts import ChatPromptTemplate
 from assistant.application.agents.state import CustomerSupportAgentState, QueryCategory, QuerySentiment
 from assistant.domain.prompts import (
     SENTIMENT_CATEGORY_PROMPT,
@@ -41,18 +42,42 @@ def categorize_inquiry(support_state: CustomerSupportAgentState) -> CustomerSupp
 def generate_department_response(support_state: CustomerSupportAgentState) -> CustomerSupportAgentState:
     """
     Provide a department support response by combining knowledge from the vector store and LLM.
+    For GENERAL queries, respond conversationally without RAG retrieval.
     """
     # Retrieve category and ensure it is lowercase for metadata filtering
     categorized_topic = support_state["query_category"]
     query = support_state["customer_query"][0].content
 
-    # Use metadata filter for department - specific queries
-    if categorized_topic == ['HR', 'IT_SUPPORT', 'FACILITY_AND_ADMIN', 'BILLING_AND_PAYMENT', 'SHIPPING_AND_DELIVERY']:
+    # Handle GENERAL queries without RAG retrieval
+    if categorized_topic == 'GENERAL':
+        general_prompt = ChatPromptTemplate.from_template(
+            """You are a friendly customer support assistant for ShopUNow, a retail company.
+
+            Respond to the following query in a warm, conversational manner.
+            Introduce yourself briefly and let them know you can help with:
+            - Human Resources (HR) queries
+            - IT Support questions
+            - Facility and Admin issues
+            - Billing and Payment matters
+            - Shipping and Delivery inquiries
+
+            Customer Query:
+            {customer_query}
+            """
+        )
+        chain = general_prompt | llm
+        reply = chain.invoke({"customer_query": query}).content
+
+        return {
+            "final_response": reply,
+            "retrieved_content": ""
+        }
+
+    # Use metadata filter for department-specific queries
+    if categorized_topic in ['HR', 'IT_SUPPORT', 'FACILITY_AND_ADMIN', 'BILLING_AND_PAYMENT', 'SHIPPING_AND_DELIVERY']:
         metadata_filter = {"source": categorized_topic.lower()}
-        department = categorized_topic
     else:
         metadata_filter = None
-
 
     # Perform retrieval from VectorDB
     relevant_docs = vector_store.similarity_search(

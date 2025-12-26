@@ -42,11 +42,12 @@ _ROUTE_CATEGORY_PROMPT = """Act as a customer support agent trying to best categ
                                 - handling facility and admin related queries
                                 - handling billing and payment related queries
                                 - handling delivery and shipping related queries
+                                - handling general conversational queries
 
                                Please read the customer query below and
                                determine the best category from the following list:
 
-                               'HR', 'IT_SUPPORT', 'FACILITY_AND_ADMIN', 'BILLING_AND_PAYMENT', 'SHIPPING_AND_DELIVERY'
+                               'HR', 'IT_SUPPORT', 'FACILITY_AND_ADMIN', 'BILLING_AND_PAYMENT', 'SHIPPING_AND_DELIVERY', 'GENERAL'
 
                                Remember:
                                HR - records centralize data covering their entire employment lifecycle: personal details, leave, compensation (expenses, bonuses, benefits), career progression (transfers, development), and adherence to company policies (e.g., health & safety, equal opportunities, social media). Essential for employee support and compliance.
@@ -58,6 +59,8 @@ _ROUTE_CATEGORY_PROMPT = """Act as a customer support agent trying to best categ
                                BILLING_AND_PAYMENT - records cover financial transactions, including invoices, order history, charges, refunds, payment methods, and billing disputes, as well as gift card and store credit balances.
 
                                DELIVERY_AND_SHIPPING: records cover product deliveries, including tracking, shipping history, order status, delivery options/costs, instructions, and resolution of lost, damaged, or incorrect shipments.
+
+                               GENERAL - simple greetings, casual conversation, general questions that don't require specific department knowledge or support. Examples: "hi", "hello", "how are you", "what can you do", "tell me about yourself".
 
                                Return just the category name (from one of the above)
 

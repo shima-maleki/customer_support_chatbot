@@ -11,7 +11,7 @@ class CustomerSupportAgentState(TypedDict):
     retrieved_content: str
 
 class QueryCategory(BaseModel):
-    categorized_topic: Literal['HR', 'IT_SUPPORT', 'FACILITY_AND_ADMIN', 'BILLING_AND_PAYMENT', 'SHIPPING_AND_DELIVERY']
+    categorized_topic: Literal['HR', 'IT_SUPPORT', 'FACILITY_AND_ADMIN', 'BILLING_AND_PAYMENT', 'SHIPPING_AND_DELIVERY', 'GENERAL']
 
 class QuerySentiment(BaseModel):
     sentiment: Literal['Positive', 'Neutral', 'Negative']
