@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How can I view my past orders and their billing details?",
+    "answer": "You can view your past orders and their associated billing details by logging into your 'My Account' section on the Company ShopUNow website. Navigate to 'Order History' where each order will show its status, items, and billing summary."
+  },
+  {
+    "question": "I see a charge from 'Company ShopUNow' on my bank statement that I don't recognize. What should I do?",
+    "answer": "Please check your 'My Account' order history for any recent purchases. If you still don't recognize the charge, please contact our Customer Service team immediately at [Customer Service Phone Number] or via email at [Customer Service Email] with the date and amount of the charge. We will investigate this for you."
+  },
+  {
+    "question": "Do you send paper invoices or are they all digital?",
+    "answer": "To minimize our environmental impact, Company ShopUNow primarily issues digital invoices and order confirmations via email. You can also access and download them from your 'My Account' section online."
+  },
+  {
+    "question": "How do I get a copy of my invoice for a previous purchase?",
+    "answer": "You can download and print invoices for all your past purchases directly from the 'Order History' section within your 'My Account' on our website. Each order will have a link to 'View Invoice' or 'Download Receipt'."
+  },
+  {
+    "question": "Why was I charged a different amount than the price shown on the product page?",
+    "answer": "This can happen due to various reasons such as sales tax, shipping fees, or if a discount code expired or was incorrectly applied. Please review your order confirmation email, which details all charges. If you still believe there's an error, contact Customer Service with your order number."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "Company ShopUNow accepts a wide range of payment methods, including major credit and debit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, and Google Pay. We also offer [mention any buy-now-pay-later options, e.g., Klarna, Clearpay] for eligible purchases."
+  },
+  {
+    "question": "What shipping options do you offer for deliveries within the UK?",
+    "answer": "Company ShopUNow offers several shipping options within the UK: Standard Delivery (typically 3-5 working days), Express Delivery (1-2 working days), and Nominated Day Delivery where you can select a specific delivery date."
+  },
+  {
+    "question": "What are your shipping costs?",
+    "answer": "Shipping costs vary based on the selected delivery option and the size/weight of your order. Standard Delivery starts from [e.g., £3.95], Express Delivery from [e.g., £6.95]. Full details are available on our 'Delivery Information' page on the website and will be calculated at checkout."
+  },
+  {
+    "question": "Do you offer free shipping?",
+    "answer": "Yes, Company ShopUNow offers free Standard Delivery on all orders over [e.g., £50] within the UK. Look out for special promotions that may offer free shipping on lower value orders."
+  },
+  {
+    "question": "Do you ship internationally?",
+    "answer": "Yes, Company ShopUNow ships to a growing number of international destinations. Please select your country at checkout or refer to our 'International Delivery' page for a list of supported countries and associated costs/delivery times."
+  },
+  {
+    "question": "Can I choose a specific delivery date or time slot?",
+    "answer": "Yes, with our Nominated Day Delivery service, you can choose a specific delivery date that suits you. For time slots, our delivery partners may offer options directly to you via text/email notifications once your parcel is en route."
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "Once your order is dispatched, you will receive a shipping confirmation email containing a tracking number and a link to the courier's website. You can also find this information by logging into 'My Account' and viewing your 'Order History'."
+  },
+  {
+    "question": "How do I report a maintenance issue in the office/store (e.g., a broken light, leaky tap)?",
+    "answer": "You can report any maintenance issues via the Facilities Request Portal on the company intranet. Please provide as much detail as possible, including location and a description of the problem. For urgent issues that pose an immediate safety risk, please also notify your manager and contact Facilities directly at [Facilities Urgent Phone Number]."
+  },
+  {
+    "question": "Who do I contact if the air conditioning/heating isn't working properly?",
+    "answer": "Please submit a Facilities Request via the portal, specifying the affected area and the nature of the issue (e.g., too hot, too cold, no airflow). This allows our team to log the issue and dispatch the appropriate technician."
+  },
+  {
+    "question": "How do I request office supplies or stationery?",
+    "answer": "You can request office supplies through the online Stationery Order Form, accessible on the Facilities & Admin section of the intranet. Orders are typically processed weekly, so please plan your requests in advance."
+  },
+  {
+    "question": "What's the policy on using the kitchen facilities (e.g., microwaves, fridges)?",
+    "answer": "Our kitchen facilities are for shared use. Please ensure you clean up after yourself, label personal items in the fridge, and dispose of rubbish appropriately. There's a 'Kitchen Etiquette' guide posted in all kitchen areas and on the intranet for full details."
+  },
+  {
+    "question": "Where can I find information about emergency procedures (fire, evacuation)?",
+    "answer": "Emergency procedures, including fire escape routes, assembly points, and designated fire wardens, are clearly displayed throughout the office/store locations. You can also find a comprehensive 'Emergency Preparedness Guide' on the Facilities & Admin section of the intranet. Regular drills are also conducted."
+  },
+  {
+    "question": "How do I book a meeting room?",
+    "answer": "Meeting rooms can be booked using the Outlook Calendar's 'Room Finder' feature. Simply select the room you wish to book as you would invite an attendee to a meeting. Please remember to release the room if your meeting is cancelled."
+  },
+  {
+    "question": "How do I access my annual leave balance?",
+    "answer": "Your current annual leave balance is available on the HR employee portal, typically under the 'Leave' or 'Time Off' section. It's updated in real-time after each request is processed."
+  },
+  {
+    "question": "What is the process for claiming expenses?",
+    "answer": "All work-related expenses can be claimed through the online expense management system, accessible via the Company ShopUNow intranet. You'll need to upload receipts and submit them for manager approval. Please refer to the 'Expense Policy' for detailed guidelines."
+  },
+  {
+    "question": "Can I transfer between departments or store locations?",
+    "answer": "Internal transfers are possible and encouraged. Keep an eye on internal job postings on the HR intranet. If you see a suitable role, you can apply directly, and your application will be considered alongside external candidates."
+  },
+  {
+    "question": "What is the company's policy on equal opportunities and diversity?",
+    "answer": "Company ShopUNow is committed to providing equal opportunities and fostering a diverse and inclusive workplace. Our 'Equal Opportunities and Diversity Policy' outlines our commitment to treating all employees fairly, regardless of background."
+  },
+  {
+    "question": "How do I report a health and safety concern?",
+    "answer": "Any health and safety concerns should be reported immediately to your line manager or a designated Health and Safety representative. You can also log concerns confidentially through the 'Health and Safety' section of the HR intranet."
+  },
+  {
+    "question": "What support is available for employee well-being?",
+    "answer": "Company ShopUNow offers various well-being initiatives, including an Employee Assistance Program (EAP) providing confidential counselling, mental health resources, and wellness workshops. Details are on the HR intranet under 'Employee Well-being'."
+  },
+  {
+    "question": "I can't log in to my computer/work applications. What should I do?",
+    "answer": "First, try restarting your computer. If the issue persists, ensure you're using the correct username and password. If you've forgotten your password or believe your account is locked, please use the 'Forgot Password' link on the login page or contact the IT Helpdesk immediately at [IT Helpdesk Phone Number] or [IT Helpdesk Email]."
+  },
+  {
+    "question": "How do I reset my password for my company account?",
+    "answer": "You can reset your password securely via the self-service password portal at https://aka.ms/sspr. If you're unable to access this, contact the IT Helpdesk for assistance. For security, never share your password."
+  },
+  {
+    "question": "My account keeps getting locked out. Why is this happening and how can I prevent it?",
+    "answer": "Frequent lockouts can occur due to incorrect password attempts, old credentials saved on devices, or sometimes due to sync issues. Please ensure you update your password on all devices (computer, mobile, tablet) whenever you change it. If it continues, contact IT Helpdesk; we can check for specific lockout triggers."
+  },
+  {
+    "question": "How do I request access to a new system or application?",
+    "answer": "Access to new systems or applications typically requires approval from your line manager. Once approved, your manager should submit an access request ticket to the IT Helpdesk through the IT Service Portal. Please include the specific system name and your business justification."
+  },
+  {
+    "question": "I'm a new employee. How do I get my initial IT setup and access?",
+    "answer": "Welcome to Company ShopUNow! Your manager should have submitted an IT onboarding request. On your first day, IT will guide you through setting up your computer, email, and initial access to essential systems. If you have any issues, please contact the IT Helpdesk directly."
+  },
+  {
+    "question": "My computer is running very slow. How can I troubleshoot it?",
+    "answer": "Try restarting your computer first. Close unnecessary applications and check your storage space. If it remains slow, it could indicate hardware issues or a need for optimization. Please submit an IT ticket with details about the performance issue, and IT will investigate."
+  }
+]

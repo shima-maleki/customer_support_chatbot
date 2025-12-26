@@ -1,17 +1,17 @@
 from typing import Generic, Type, TypeVar
 from typing import List, Optional, Dict, Any
-from bson import ObjectId
 from loguru import logger
 from pydantic import BaseModel
 from uuid import uuid4
 
 from langchain_qdrant import QdrantVectorStore, RetrievalMode
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from qdrant_client import QdrantClient
 from qdrant_client.models import Filter, FieldCondition, MatchValue
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 from assistant.config import settings
+from assistant.domain.document import Document as KBDocument
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -22,13 +22,19 @@ class QdrantIngestionService(Generic[T]):
         self,
         model: Type[T],
         collection_name: str,
-        qdrant_url: str = settings.QDRANT_URI,
+        qdrant_url: Optional[str] = settings.QDRANT_URL or settings.QDRANT_URI,
         qdrant_api_key: str = settings.QDRANT_API_KEY,
         embeddings_model=None,
     ):
         self.model = model
         self.collection_name = collection_name
-        self.client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key)
+        resolved_url = qdrant_url or settings.QDRANT_URL or settings.QDRANT_URI
+        if not resolved_url:
+            raise ValueError("Qdrant URL is not configured. Set QDRANT_URL or QDRANT_URI.")
+
+        self.qdrant_url = resolved_url
+        self.qdrant_api_key = qdrant_api_key
+        self.client = QdrantClient(url=self.qdrant_url, api_key=self.qdrant_api_key)
         self.embeddings = embeddings_model or OpenAIEmbeddings()
 
     def check_collection_exists(self) -> bool:
@@ -51,23 +57,8 @@ class QdrantIngestionService(Generic[T]):
         if not documents:
             raise ValueError("No documents to ingest")
 
-        existing_ids = set()
-        for doc in documents:
-            doc_id = getattr(doc, "id", None)
-            if not doc_id:
-                raise ValueError("Each document must have an 'id' field.")
-            exists = self._doc_exists(doc_id)
-            if exists:
-                existing_ids.add(doc_id)
-
-        new_documents = [doc for doc in documents if getattr(doc, "id") not in existing_ids]
-
-        if not new_documents:
-            logger.info("All documents already exist in the collection. Nothing to ingest.")
-            return
-
         lc_documents = []
-        for doc in new_documents:
+        for doc in documents:
             doc_dict = doc.model_dump()
             content = doc_dict.get(text_field)
             if not content:
@@ -79,7 +70,8 @@ class QdrantIngestionService(Generic[T]):
         QdrantVectorStore.from_documents(
             documents=lc_documents,
             embedding=self.embeddings,
-            client=self.client,
+            url=self.qdrant_url,
+            api_key=self.qdrant_api_key,
             collection_name=self.collection_name,
         )
 
@@ -102,3 +94,22 @@ class QdrantIngestionService(Generic[T]):
         except Exception as e:
             logger.error(f"Failed to check existence of doc ID '{doc_id}': {e}")
             return False
+
+    # Convenience alias expected by scripts.
+    def add_documents(self, documents: List[T], text_field: str = "content") -> None:
+        self.ingest_documents(documents=documents, text_field=text_field)
+
+
+def vectorstore(collection_name: Optional[str] = None) -> QdrantIngestionService:
+    """Factory to create a QdrantIngestionService with defaults from settings."""
+    target_collection = collection_name or settings.QDRANT_DATABASE_NAME
+    return QdrantIngestionService(
+        model=KBDocument,
+        collection_name=target_collection,
+        qdrant_url=settings.QDRANT_URL or settings.QDRANT_URI,
+        qdrant_api_key=settings.QDRANT_API_KEY,
+        embeddings_model=OpenAIEmbeddings(
+            model=settings.EMBEDDINGS_MODEL_ID,
+            api_key=settings.OPENAI_API_KEY,
+        ),
+    )

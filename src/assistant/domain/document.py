@@ -1,6 +1,9 @@
 import json
 from pathlib import Path
+from typing import List, Dict, Any
+
 from pydantic import BaseModel, Field
+
 from assistant import utils
 
 class DocumentMetadata(BaseModel):
@@ -121,3 +124,35 @@ class Document(BaseModel):
             int: Hash value based on the document's ID.
         """
         return hash(self.id)
+
+
+def read_all_json_files(input_dir: Path | str) -> List[Dict[str, Any]]:
+    """Load and combine all JSON files in a directory into a single list."""
+    input_path = Path(input_dir)
+    if not input_path.exists():
+        raise FileNotFoundError(f"Knowledge base path not found: {input_path}")
+
+    all_docs: List[Dict[str, Any]] = []
+    for file_path in sorted(input_path.glob("*.json")):
+        data = json.loads(file_path.read_text(encoding="utf-8"))
+        if isinstance(data, list):
+            all_docs.extend(data)
+        else:
+            raise ValueError(f"Expected list in {file_path}, got {type(data)}")
+    return all_docs
+
+
+def create_documents_from_knowledge_base(raw_entries: List[Dict[str, Any]]) -> List[Document]:
+    """Convert raw FAQ entries into Pydantic Document objects for ingestion."""
+    documents: List[Document] = []
+    for entry in raw_entries:
+        content = entry.get("doc")
+        if not content:
+            continue
+        metadata = DocumentMetadata(
+            id=entry.get("id", utils.generate_random_hex(length=32)),
+            source=entry.get("category", "unknown"),
+            properties={k: v for k, v in entry.items() if k not in {"doc", "category", "id"}},
+        )
+        documents.append(Document(metadata=metadata, content=content))
+    return documents

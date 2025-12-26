@@ -4,4 +4,26 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.115.8",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.8",
+    "jupyter-ui-poll>=1.1.0",
+    "langchain>=1.2.0",
+    "langchain-community>=0.3.17",
+    "langchain-core>=0.3.65",
+    "langchain-mongodb>=0.4.0",
+    "langchain-openai>=0.3.22",
+    "langchain-qdrant>=0.2.0",
+    "langgraph>=0.4.8",
+    "langgraph-checkpoint-mongodb>=0.1.0",
+    "loguru>=0.7.3",
+    "notebook>=7.5.1",
+    "opik>=1.4.11",
+    "pre-commit>=4.1.0",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.7.1",
+    "pymongo>=4.9.2",
+    "python-dotenv>=1.1.0",
+    "streamlit>=1.52.2",
+]
